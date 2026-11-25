@@ -1,0 +1,59 @@
+
+# .NET
+
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage output
+**/TestResults/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# Business Central / AL
+
+**/.alpackages/
+**/.alcache/
+**/*.app
+
+# VS Code
+
+# Keep useful shared workspace configuration
+# Ignore personal workspace settings
+.vscode/settings.json
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Local development secrets
+secrets.json
+appsettings.*.local.json
+
+# Logs and temporary files
+
+*.log
+logs/
+tmp/
+temp/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor temporary files
+
+.idea/
+*.swp
+*.swo
+*~
