@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "John Walter",
+            "name": "Members Only - OnPrem",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
